@@ -1,8 +1,17 @@
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
 .dark-blue-cont {
     background-color: #1F2937;
     display: flex;
     flex-wrap: wrap;
     color: #F9FAF8;
+    flex: 1 1 auto;
 }
 
 
@@ -13,18 +22,16 @@
 
 .left-header {
     display: flex;
-    width: 100px;
-    padding-left: 90px;
+    width: 125px;
+    padding-left: 200px;
+    padding-right: 450px;
 }
 
 .right-header {
     display: flex;
     gap: 25px;
-    flex-shrink: 1;
-    flex-basis: auto;
     padding-right: 200px;
     width: 420px;
-    padding-left: 240px;
 }
 
 .header-link {
@@ -32,7 +39,25 @@
 }
 
 
+.blue-left-column {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 50px;
+}
+
 .title {
     font-size: 48px;
     font-weight: 900;
+    height: 90px;
+}
+
+.image-one {
+    width: 300px;
+    padding-left: 0px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    height: 130px;
 }
