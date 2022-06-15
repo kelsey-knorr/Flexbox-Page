@@ -5,14 +5,18 @@
 }
 
 
+.header {
+    display: flex;
+}
+
 .right-header {
     margin-left: auto;
     width: 500px;
     display: flex;
     justify-content: space-between;
-    margin-right: 200px;
+    padding-right:
 }
 
 .left-header {
-
+    padding-right: 200px;
 }
