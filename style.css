@@ -1,0 +1,18 @@
+.dark-blue-cont {
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.right-header {
+    margin-left: auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.left-header {
+    
+}
