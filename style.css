@@ -2,21 +2,37 @@
     background-color: #1F2937;
     display: flex;
     flex-wrap: wrap;
+    color: #F9FAF8;
 }
 
 
 .header {
     display: flex;
-}
-
-.right-header {
-    margin-left: auto;
-    width: 500px;
-    display: flex;
-    justify-content: space-between;
-    padding-right:
+    margin-bottom: 130px;
 }
 
 .left-header {
+    display: flex;
+    width: 100px;
+    padding-left: 90px;
+}
+
+.right-header {
+    display: flex;
+    gap: 25px;
+    flex-shrink: 1;
+    flex-basis: auto;
     padding-right: 200px;
+    width: 420px;
+    padding-left: 240px;
+}
+
+.header-link {
+
+}
+
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
 }
