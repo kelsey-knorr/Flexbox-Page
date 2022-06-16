@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+}
+
+.header-logo {
+    flex-grow: 1;
+    margin-left: 14vh;
+}
+
+.header-links {
+    margin-right: 14vh;
+    
+}
