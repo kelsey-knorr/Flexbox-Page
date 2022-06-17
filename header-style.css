@@ -1,13 +1,19 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
+    background-color: darkblue;
+    height: 11vh;
 }
 
 .header-logo {
     flex-grow: 1;
-    margin-left: 14vh;
+    margin-left: 14vh; /**/ could also be pading later on/**/
 }
 
 .header-links {
-    margin-right: 14vh;
-    
+    margin-right: 14vh; /**/ could also be pading later on/**/
 }
