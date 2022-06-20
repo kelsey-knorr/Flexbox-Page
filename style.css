@@ -1,63 +1,47 @@
 .body {
+    color: white;
     display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    flex: 1 1 auto;
+    flex-wrap: wrap:
 }
 
-.dark-blue-cont {
+.first-container {
+    display: flex;
     background-color: #1F2937;
+    height: 11vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header-logo {
+    flex-grow: 1;
+    padding-left: 15vh; /**/ could also be marg later on/**/
+}
+
+.header-links {
+    padding-right: 14%; /**/ could also be marg later on /**/
+    flex-basis: 30%;
+
+    
+}
+
+@media (max-width: 600px) {
+    .header-links {
+        display: none;
+    }
+}
+
+a {
+    padding: 1rem;
+}
+
+
+
+/**/ new part coming up! /**/
+
+.second-container {
     display: flex;
-    flex-wrap: wrap;
-    color: #F9FAF8;
-    flex: 1 1 auto;
-}
-
-
-.header {
-    display: flex;
-    margin-bottom: 130px;
-}
-
-.left-header {
-    display: flex;
-    width: 125px;
-    padding-left: 200px;
-    padding-right: 450px;
-}
-
-.right-header {
-    display: flex;
-    gap: 25px;
-    padding-right: 200px;
-    width: 420px;
-}
-
-.header-link {
-
-}
-
-
-.blue-left-column {
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 200px;
-    padding-right: 50px;
-}
-
-.title {
-    font-size: 48px;
-    font-weight: 900;
-    height: 90px;
-}
-
-.image-one {
-    width: 300px;
-    padding-left: 0px;
-    background: grey;
-    display: flex;
-    align-items: center;
-    height: 130px;
+    background-color: #1F2937;
+    height: 26vh;
+    color: white;
+    font-family: sans-serif;
 }
