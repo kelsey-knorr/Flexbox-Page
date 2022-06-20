@@ -2,7 +2,6 @@
     color: white;
 }
 
-/**/ headr starts here
 .first-container {
     display: flex;
     background-color: #1F2937;
@@ -18,7 +17,6 @@
     padding-left: 15vw; /**/ could also be marg later on/**/
 }
 
-/**/ disappear top links when window is narrow /**/
 .header-links {
     padding-right: 5%; /**/ could also be marg later on /**/
     flex-basis: 30%;
@@ -35,7 +33,10 @@
 a {
     padding: 1rem;
 }
-/**/ headr ends here 
+
+
+
+/**/ new part coming up! /**/
 
 .second-container {
     display: flex;
