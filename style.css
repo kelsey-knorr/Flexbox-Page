@@ -1,30 +1,32 @@
 .body {
     color: white;
-    display: flex;
-    flex-wrap: wrap:
 }
 
+/**/ headr starts here
 .first-container {
     display: flex;
     background-color: #1F2937;
-    height: 11vh;
+    height: 20vh;
+    width: 100%;
     color: white;
     font-family: sans-serif;
+    font-size: 20px;
 }
 
 .header-logo {
     flex-grow: 1;
-    padding-left: 15vh; /**/ could also be marg later on/**/
+    padding-left: 15vw; /**/ could also be marg later on/**/
 }
 
+/**/ disappear top links when window is narrow /**/
 .header-links {
-    padding-right: 14%; /**/ could also be marg later on /**/
+    padding-right: 5%; /**/ could also be marg later on /**/
     flex-basis: 30%;
-
+    font-size: 15px;
     
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .header-links {
         display: none;
     }
@@ -33,15 +35,13 @@
 a {
     padding: 1rem;
 }
-
-
-
-/**/ new part coming up! /**/
+/**/ headr ends here 
 
 .second-container {
     display: flex;
-    background-color: #1F2937;
-    height: 26vh;
+    background-color: #aaaaaa;
+    height: 50vh;
     color: white;
     font-family: sans-serif;
+    font-size: 20px;
 }
