@@ -36,6 +36,7 @@ a {
     padding: 1rem;
 }
 
+/* begin second container */
 
 .second-container {
     display: flex;
@@ -77,3 +78,82 @@ a {
         display: none;
     }
 }
+
+
+/* begin third container */
+
+
+.third-container {
+        display: flex;
+        background-color: #f9faf8;
+        height: 65vh;
+        color: black;
+        font-family: sans-serif;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+        gap: 6.5vw;
+        padding-right: 16vw;
+        padding-left: 16vw;
+    }
+
+.information {
+    color: #1f2937;
+    background-color: #f9faf8;
+    font-size: 36px;
+    padding-bottom: 8vh;
+    padding-top: 7vh;
+    text-align: center;
+}
+
+.square {
+    border-style: solid;
+    height: 15vh;
+    width: auto;
+    border-radius: 10px;
+}
+
+/* third container finished */
+
+.fourth-container {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 57vh;
+    color: #1F2937;
+    font-family: sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16vw;
+    padding-left: 16vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+/* fourth container finished */
+
+.fifth-container {
+    display: flex;
+    background-color: #f9faf8;
+    height: 57vh;
+    color: black;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-right: 12vw;
+    padding-left: 10vw;
+}
+
+.fifth-container-box {
+    background-color: #3882f6;
+    height: 20vh;
+    width: 73vw;
+    display: flex;
+}
+
+
+
