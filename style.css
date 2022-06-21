@@ -2,6 +2,8 @@
     color: white;
 }
 
+
+
 .first-container {
     display: flex;
     background-color: #1F2937;
@@ -14,17 +16,17 @@
 
 .header-logo {
     flex-grow: 1;
-    padding-left: 15vw; /**/ could also be marg later on/**/
+    padding-left: 10vw; 
 }
 
 .header-links {
-    padding-right: 5%; /**/ could also be marg later on /**/
-    flex-basis: 30%;
-    font-size: 15px;
+    padding-right: 12%;
+    font-size: 18px;
+    color: #e5e7ee;
     
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .header-links {
         display: none;
     }
@@ -35,14 +37,43 @@ a {
 }
 
 
-
-/**/ new part coming up! /**/
-
 .second-container {
     display: flex;
-    background-color: #aaaaaa;
+    background-color: #1F2937;
     height: 50vh;
     color: white;
     font-family: sans-serif;
     font-size: 20px;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    flex-grow: 1;
+    padding-left: 10vw;
+    padding-right: 5%;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #e5e7ee;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #e5e7ee;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.phil-square {
+    padding-right: 12%;
+    height: 32vh;
+}
+
+@media (max-width: 900px) {
+    .phil-square {
+        display: none;
+    }
 }
